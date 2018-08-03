@@ -2,9 +2,9 @@
     
    "songs":[{
        "id":"0",
-       "title-song":"soy lo prohibido",
+       "titleSong":"soy lo prohibido",
        "artista":"Luis miguel",
-       "url-song":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+       "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
    }
 ]
 
