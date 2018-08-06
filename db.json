@@ -1,36 +1,39 @@
 {
-    
-   "songs":[{
-       "id":"0",
-       "titleSong":"soy lo prohibido",
-       "artista":"Luis miguel",
-       "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-   },
-   {
-    "id":"1",
-    "titleSong":"soy lo prohibido2",
-    "artista":"Luis miguel2",
-    "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-},
-{
-    "id":"2",
-    "titleSong":"soy lo prohibido3",
-    "artista":"Luis miguel3",
-    "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-},
-{
-    "id":"3",
-    "titleSong":"soy lo prohibido4",
-    "artista":"Luis miguel4",
-    "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-},
-{
-    "id":"4",
-    "titleSong":"soy lo prohibido5",
-    "artista":"Luis miguel5",
-    "urlSong":"http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-}
-
-]
-
+    "albums": [
+        {
+            "id_album": "1",
+            "title": "mexico por siempre",
+            "description": "ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum rem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "artist": "Luis miguel",
+            "genre":"ranchera",
+            "songs": [
+                {
+                    "id": "0",
+                    "titleSong": "soy lo prohibido",
+                    "artista": "Luis miguel",
+                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                },
+                {
+                    "id": "1",
+                    "titleSong": "soy lo prohibido2",
+                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                },
+                {
+                    "id": "2",
+                    "titleSong": "soy lo prohibido3",
+                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                },
+                {
+                    "id": "3",
+                    "titleSong": "soy lo prohibido4",
+                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                },
+                {
+                    "id": "4",
+                    "titleSong": "soy lo prohibido5",
+                    "urlSong": "https://soundcloud.com/combatplayer/rise"
+                }
+            ]
+        }
+    ]
 }

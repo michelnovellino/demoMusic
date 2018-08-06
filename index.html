@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="mn_player">
+        <div class="album_header">
+            <img  src="https://loremflickr.com/g/200/200/lock" id="album_image" alt="album_image">
+            <div class="album_info">
+                <h1>mi titulo</h1>
+                <p class="album_description">
+                    lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
+                    ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    lorem ipsum lorem ipsum lorem ipsum
+                </p>
+            </div>
+        </div>
+        <audio id="mn_audio_player" controls="">
+        </audio>
+
+        <ul id="play_items" class="play_items">
+
+        </ul>
+    </div>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            //  get_songs();
+
+        });
+
+
+
+        let url = 'https://my-json-server.typicode.com/michelnovellino/demoMusic/songs';
+
+        fetch(url)
+            .then(res => res.json())
+            .then((out) => {
+                var music = out;
+                console.log(music);
+             
+                ul = document.getElementById('play_items');
+               
+                for (var item in music) {
+                    li = document.createElement('li');
+                    a = document.createElement('a')
+                    a.setAttribute("url", `${music[item].urlSong}`);
+                    a.innerHTML = `${music[item].titleSong}`;
+                    li.appendChild(a);
+                    ul.appendChild(li);
+                }
+                playing = document.getElementById('play_items');
+                console.log(playing)
+                playing.addEventListener("click", function (selectedSong) {
+                    document.getElementById('mn_audio_player').setAttribute("src", `${music[item].urlSong}`)
+                    var audio = document.getElementById('mn_audio_player');
+                    audio.play();
+                    console.log(selectedSong.target);
+                });
+               
+            })
+            .catch(err => { throw err });
+      
+
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
+
+<style>
+    .mn_player {
+        width: 100%;
+        background: #1b1d1f;
+    }
+
+    .album_header {
+        display: flex;
+        max-height: 300px;
+        background: #1b1d1f;
+    }
+
+    .album_info {
+        padding-left: 2%;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .play_items {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: column;
+        padding: 0;
+    }
+
+    .play_items li {
+        color: rgba(255, 255, 255, 0.8);
+        border: solid #ebecec .1px;
+        background: #1b1d1f;
+        padding: .8%;
+        width: 100%;
+    }
+</style>
