@@ -10,30 +10,57 @@
                 {
                     "id": "0",
                     "titleSong": "soy lo prohibido",
-                    "artista": "Luis miguel",
-                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video.m4a"
                 },
                 {
                     "id": "1",
-                    "titleSong": "soy lo prohibido2",
-                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-                },
-                {
-                    "id": "2",
-                    "titleSong": "soy lo prohibido3",
-                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
-                },
+                    "titleSong": "deja que salga la luna",
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/Luis-Miguel-Deja-Que-Salga-La-Luna-Lyric-Video.m4a"
+                }
+            
+            ]
+        },
+        {
+            "id_album": "2",
+            "title": "lm exitos",
+            "description": "ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum rem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "artist": "Luis miguel",
+            "genre":"pop",
+            "songs": [
                 {
                     "id": "3",
-                    "titleSong": "soy lo prohibido4",
-                    "urlSong": "http://axmov.com/Music/Luis-Miguel-Soy-Lo-Prohibido-Lyric-Video2.m4a"
+                    "titleSong": "culpable o no",
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/Culpable-o-no-mienteme-como-siempre-Luis-Miguel.m4a"
                 },
                 {
                     "id": "4",
-                    "titleSong": "soy lo prohibido5",
-                    "urlSong": "https://soundcloud.com/combatplayer/rise"
+                    "titleSong": "pupilas de gato",
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/Luis-Miguel-Pupilas-de-gato.m4a"
                 }
+            
+            ]
+        },
+        {
+            "id_album": "3",
+            "title": "david bisbal exitos",
+            "description": "ipsumlorem ipsumlorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsum rem ipsumlorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum",
+            "artist": "david bisbal",
+            "genre":"pop",
+            "songs": [
+                {
+                    "id": "5",
+                    "titleSong": "quiero perderme en tu cuerpo",
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/QUIERO-PERDERME-EN-TU-CUERPO-DAVID-BISBAL.m4a"
+                },
+                {
+                    "id": "6",
+                    "titleSong": "herederos",
+                    "urlSong": "http://localhost/limp%C3%ACo/wp-content/uploads/2018/08/DAVID-BISBAL-Herederos-CON-LETRA.m4a"
+                }
+            
             ]
         }
+
+        
     ]
 }
